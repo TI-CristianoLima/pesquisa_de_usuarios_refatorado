@@ -1,0 +1,48 @@
+body{
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.canvas{
+  width: 25%;
+  height: 50%;
+}
+
+
+
+.legenda{
+  margin-top: 80px;
+  margin-left: 5px;
+  width: 150px;
+  height: 72px;
+  padding: 0;
+}
+
+li{
+  padding: 5px;
+}
+
+.legenda2{
+  margin: 30px;
+  margin-left: 5px;
+
+  width: 250px;
+  height: 72px;
+  padding: 0;
+}
+
+@media (max-width: 1000px){
+  .canvas{
+    width: 100%;
+    align-items: center;
+  }
+  .legenda2{
+    margin-bottom: 80px !important;
+    margin-left: 5px;
+  
+    width: 250px;
+    height: 72px;
+    padding: 0;
+  }
+}
